@@ -1,9 +1,9 @@
 # jmeter-stuffs
 1. Validate json schema using external libraries and JSR223
   - Select appropriate versions of the following libs, puth them in /lib folder of your jmeter instalation
-      https://github.com/stleary/JSON-java
-      https://github.com/everit-org/json-schema
-      https://github.com/damnhandy/Handy-URI-Templates
+      - https://github.com/stleary/JSON-java
+      - https://github.com/everit-org/json-schema
+      - https://github.com/damnhandy/Handy-URI-Templates
   - Add the following code to JSR223 script section:
     ```
     def schemaPath = '/path/to/your/schema.json'
